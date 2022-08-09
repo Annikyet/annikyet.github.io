@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="tailwind.css"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css'>
+  <link rel="stylesheet" href="input.css">
+  <title>Annika Bisson - Software Developer</title>
+</head>
+<body>
+  <header>
+    <nav class="z-20 flex justify-between px-12 md:px-48 py-4 bg-zinc-900/40 text-slate-50/80 fixed w-screen text-shadow items-end">
+      <h1 class="text-4xl">Annika Bisson</h1>
+      <ul class="hidden md:flex">
+        <li class="px-4 hover:text-rose-700"><a href="#about">About</a></li>
+        <li class="px-4 hover:text-rose-700"><a href="#languages">Skills</a></li>
+        <li class="px-4 hover:text-rose-700"><a href="#applications">Projects</a></li>
+        <li class="px-4 hover:text-rose-700"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-[url('./src/img/andras-vas-Bd7gNnWJBkU-unsplash.jpg')] h-screen w-screen bg-cover bg-center flex items-center justify-center">
+      <h2 class="text-center text-6xl md:text-8xl text-slate-50/80 text-shadow">Software Developer</h2>
+    </section>
+    <section id="about" class="bg-rose-700 min-h-[40vh] p-8 md:p-24">
+      <h2 class="text-center text-4xl text-zinc-100">About Me</h2>
+      <div class="text-zinc-100 py-12 md:px-24">
+        <p class="pb-4">Hi, I'm Annika 👩🏼‍💻</p>
+        <p>
+          I'm a full-stack software developer with a background in data analysis. I have a passion for good design and elegant solutions to problems. I'm always thinking about how to make UX better, and how to optimize everything for maximum efficiency.
+        </p>
+      </div>
+    </section>
+    <section id="languages" class="bg-zinc-100 min-h-[80vh] p-8 md:p-24">
+      <h2 class="text-zinc-900 text-center text-4xl pb-12">Languages, Frameworks, and Tools</h2>
+      <ul class="flex justify-between flex-wrap">
+        <!-- center images -->
+        <!-- make html and css same size -->
+        <!-- a tag newtab target blank newtab -->
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./src/img/badges/html.png" alt="HTML5"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./src/img/badges/CSS.png" alt="CSS"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://developer.mozilla.org/en-US/docs/Web/javascript"><img src="./src/img/badges/JavaScript.png" alt="JavaScript"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://vuejs.org/"><img src="./src/img/badges/Vue.png" alt="Vue.js"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://nodejs.org/en/"><img src="./src/img/badges/node.png" alt="nodeJS"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://getbootstrap.com/"><img src="./src/img/badges/bootstrap.png" alt="Bootstrap"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://tailwindcss.com/"><img src="./src/img/badges/tailwind.svg" alt="tailwindcss"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="./src/img/badges/csharp.png" alt="C#/.NET"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://www.python.org/"><img src="./src/img/badges/python.png" alt="Python"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://www.mysql.com/"><img src="./src/img/badges/mySQL.png" alt="mySQL"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://www.mongodb.com/"><img src="./src/img/badges/mongodb.png" alt="mongoDB"></a></li>
+        <li class="h-24 w-24 md:h-64 md:w-64 p-4"><a href="https://docs.microsoft.com/en-us/sql/?view=sql-server-ver16"><img src="./src/img/badges/mssql.png" alt="Microsoft SQL"></a></li>
+      </ul>
+    </section>
+    <section id="applications">
+      <div class="bg-zinc-800 h-[40vh] p-8 md:p-24">
+        <h2 class="text-center text-4xl text-zinc-100 pb-12">Check out these projects and more on Github!</h2>
+        <div class="flex justify-center">
+          <a href="https://github.com/annikyet" class="text-zinc-900 bg-zinc-100 w-48 p-4 text-center text-2xl rounded-full hover:bg-rose-700 hover:text-zinc-100">
+            <i class="mdi mdi-github"></i>
+            Github
+          </a>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 min-h-[50vh] p-4 md:p-0 bg-zinc-800">
+
+        <a href="https://github.com/Annikyet/tomodachi" class="relative pb-4 md:pb-0">
+          <img src="./src/img/screenshots/tomodachi.jpg" alt="Tomodachi" class="object-left object-cover h-full w-full rounded-lg md:rounded-none">
+          <div class="opacity-0 hover:opacity-100 absolute top-0 left-0 h-full w-full backdrop-blur-md bg-rose-700/60 flex flex-col justify-center items-center text-zinc-100 p-4 rounded-lg md:rounded-none">
+            <h3 class="text-center text-2xl">Tomodachi</h3>
+            <p class="text-lg">A stylish static webpage using CSS and Bootstrap.</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/Annikyet/budgit" class="relative pb-4 md:pb-0">
+          <img src="./src/img/screenshots/budgit.jpg" alt="Budg.it" class="object-left object-cover h-full w-full rounded-lg md:rounded-none">
+          <div class="opacity-0 hover:opacity-100 absolute top-0 left-0 h-full w-full backdrop-blur-md bg-rose-700/60 flex flex-col justify-center items-center text-zinc-100 p-4 rounded-lg md:rounded-none">
+            <h3 class="text-center text-2xl">Budg.it</h3>
+            <p class="text-lg">A budgeting app built with tailwindcss, Vue.js, nodeJS, and mongoDB.</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/Annikyet/keepr" class="relative">
+          <img src="./src/img/screenshots/keepr.jpg" alt="Keepr" class="object-left object-cover h-full w-full rounded-lg md:rounded-none">
+          <div class="opacity-0 hover:opacity-100 absolute top-0 left-0 h-full w-full backdrop-blur-md bg-rose-700/60 flex flex-col justify-center items-center text-zinc-100 p-4 rounded-lg md:rounded-none">
+            <h3 class="text-center text-2xl">Keepr</h3>
+            <p class="text-lg">A social media application for sharing and keeping images. Built with Bootstrap, Vue.js, C#/.NET, and mySQL.</p>
+          </div>
+        </a>
+
+      </div>
+      </section>
+    
+  </main>
+  
+  <footer>
+    <section id="contact" class="bg-zinc-100 min-h-[20vh]">
+      <div class="p-8 md:p-24 text-zinc-900">
+        <h2 class="text-center text-4xl">Contact Me!</h2>
+        <p class="text-lg text-center py-4 md:py-12">If you like what you see, consider contacting me on LinkedIn:</p>
+        <div class="flex justify-center">
+          <a href="https://www.linkedin.com/in/annikadev" class="text-zinc-100 bg-zinc-800 w-48 px-4 py-3 mb-4 md:mb-12 text-center text-2xl rounded-full hover:text-rose-700 hover:bg-zinc-100 border-zinc-800 border-4 hover:border-rose-700">
+            <i class="mdi mdi-linkedin"></i>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+        <p class="p-2">
+          <a href="https://unsplash.com/photos/Bd7gNnWJBkU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="hover:text-rose-700">
+            Background image by Andras Vas.
+          </a>
+      </p>
+    </section>
+  </footer>
+</body>
+</html>
